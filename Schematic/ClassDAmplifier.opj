@@ -221,8 +221,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-209 100")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
+        (Scroll "-321 40")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -232,7 +232,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-209 10")
+        (Scroll "-209 240")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -252,7 +252,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 0 1636 0 459")
-        (Scroll "-209 140")
+        (Scroll "-209 80")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
