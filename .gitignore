@@ -1,0 +1,11 @@
+/Schematic/signoise.run
+*.dat
+*.log
+*.dml
+*.DBK
+/Layout/signoise.run
+*.lst
+*.tag
+*.iml
+*.jrl
+*.dmp
