@@ -103,6 +103,18 @@
   (Folder "Referenced Projects")
   (MPSSessionName "2077762b")
   (PartMRUSelector
+    ("DIODE PIN"
+      (FullPartName "DIODE PIN.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     ("HEADER 2"
       (FullPartName "HEADER 2.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
@@ -130,10 +142,6 @@
     (BNC
       (FullPartName "BNC.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (DIODE
-      (FullPartName "DIODE.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
@@ -192,16 +200,6 @@
       (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (MONOJACK3.5
-      (FullPartName "MONOJACK3.5.Normal")
-      (LibraryName
-         "H:\DRIVE-DOWNLOAD-20180123T101900Z-001\CLASS D PARTS\CLASSD_PARTS.OLB")
-      (DeviceIndex "0"))
-    (LM317L
-      (FullPartName "LM317L.Normal")
-      (LibraryName
-         "H:\DRIVE-DOWNLOAD-20180123T101900Z-001\CLASS D PARTS\CLASSD_PARTS.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (GlobalState
@@ -221,8 +219,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-266 33")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1438 52 511")
+        (Scroll "0 375")
         (Zoom "112")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -231,8 +229,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-209 0")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1490 104 563")
+        (Scroll "-84 110")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -241,8 +239,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1792 156 615")
-        (Scroll "-209 31")
+        (Placement "44 0 1 -1 -1 -8 -31 156 1542 156 615")
+        (Scroll "-84 130")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -251,8 +249,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1636 0 459")
-        (Scroll "-209 0")
+        (Placement "44 0 1 -1 -1 -8 -31 0 1386 0 459")
+        (Scroll "-84 90")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
