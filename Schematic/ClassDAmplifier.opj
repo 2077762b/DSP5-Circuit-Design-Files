@@ -103,6 +103,10 @@
   (Folder "Referenced Projects")
   (MPSSessionName "2077762b")
   (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     ("DIODE PIN"
       (FullPartName "DIODE PIN.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -145,10 +149,6 @@
       (DeviceIndex "0"))
     ("CAP NP"
       (FullPartName "CAP NP.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (R
-      (FullPartName "R.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (LM317M
@@ -208,8 +208,7 @@
       (Path "Design Resources" ".\classdamplifier.dsn")
       (Path "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\classdamplifier.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -219,8 +218,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1438 52 511")
-        (Scroll "0 375")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1430 52 511")
+        (Scroll "-10 155")
         (Zoom "112")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -229,8 +228,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1490 104 563")
-        (Scroll "-84 110")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1482 104 563")
+        (Scroll "-80 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -239,8 +238,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 156 1542 156 615")
-        (Scroll "-84 130")
+        (Placement "44 2 3 -1 -1 -8 -31 156 1534 156 615")
+        (Scroll "-44 390")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -249,8 +248,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 1386 0 459")
-        (Scroll "-84 90")
+        (Placement "44 0 1 -1 -1 -8 -31 0 1378 0 459")
+        (Scroll "-80 130")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
