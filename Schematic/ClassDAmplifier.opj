@@ -70,9 +70,9 @@
     ("Allegro Netlist Directory" "./")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "FALSE")
+    ("Update Allegro Board" "TRUE")
     ("Allegro Netlist Output Board File"
-       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmpV1.brd")
+       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmp.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -85,7 +85,7 @@
     ("Allegro Netlist User Defined Property" "FALSE")
     (Netlist_TAB "0")
     ("Allegro Netlist Input Board File"
-       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmpV1.brd"))
+       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmp.brd"))
   (Folder "Outputs"
     (File ".\classdamplifier.drc"
       (Type "Report"))
@@ -103,6 +103,14 @@
   (Folder "Referenced Projects")
   (MPSSessionName "2077762b")
   (PartMRUSelector
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
     (SHORTING
       (FullPartName "SHORTING.Normal")
       (LibraryName
@@ -134,10 +142,6 @@
       (DeviceIndex "0"))
     ("CAPACITOR NON-POL"
       (FullPartName "CAPACITOR NON-POL.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0"))
     (test_point_0
@@ -198,10 +202,6 @@
     (MOSFET_EN_GSD
       (FullPartName "MOSFET_EN_GSD.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
-      (DeviceIndex "0"))
-    (AMC1204
-      (FullPartName "AMC1204.Normal")
-      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (GlobalState
@@ -210,14 +210,7 @@
       (Path "Design Resources" ".\classdamplifier.dsn")
       (Path "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1"
-         "1 - Sigma Delta Modulator")
-      (Select "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1"
-         "2 - MOSFET Driver")
-      (Select "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1"
-         "3 - Power Supplies")
-      (Select "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1"
-         "4 - Output Filter & Connectors"))
+      (Select "Design Resources" ".\classdamplifier.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -238,7 +231,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 537")
-        (Scroll "-209 181")
+        (Scroll "-209 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
@@ -247,11 +240,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-321 47")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
+        (Scroll "-209 0")
         (Zoom "100")
         (Occurrence "/"))
       (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4 - Output Filter & Connectors")))
+      (Page "4 - Output Filter & Connectors"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 979 52 231")
+        (Scroll "-321 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3 - Power Supplies")))
   (ISPCBBASICLICENSE "false"))
