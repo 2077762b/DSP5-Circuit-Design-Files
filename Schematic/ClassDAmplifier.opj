@@ -70,7 +70,7 @@
     ("Allegro Netlist Directory" "./")
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
-    ("Update Allegro Board" "TRUE")
+    ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Output Board File"
        "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmp.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
@@ -101,8 +101,12 @@
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
-  (MPSSessionName "2077762b")
+  (MPSSessionName "Cameron")
   (PartMRUSelector
+    (GND3
+      (LibraryName
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
     ("CAPACITOR POL"
       (FullPartName "CAPACITOR POL.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -198,63 +202,71 @@
     ("MOSFET - NVD5C684NL"
       (FullPartName "MOSFET - NVD5C684NL.Normal")
       (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
-      (DeviceIndex "0"))
-    (MOSFET_EN_GSD
-      (FullPartName "MOSFET_EN_GSD.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\classdamplifier.dsn")
-      (Path "Design Resources" ".\classdamplifier.dsn" "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources" ".\classdamplifier.dsn"))
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn")
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\parts\classd_parts.olb")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 895 1095 98 586"))
+        (Placement "44 2 3 -1 -1 -8 -31 895 1095 98 586"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-209 0")
+        (Placement "44 0 1 -1 -1 -8 -31 0 1160 0 305")
+        (Scroll "47 270")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "1 - Sigma Delta Modulator"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
-        (Scroll "-321 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 26 1186 26 331")
+        (Scroll "-100 80")
+        (Zoom "78")
         (Occurrence "/"))
-      (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
       (Page "2 - MOSFET Driver"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 563")
-        (Scroll "-209 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1212 52 357")
+        (Scroll "626 866")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "4 - Output Filter & Connectors"))
+      (Page "3 - Power Supplies"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 979 52 231")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -31 78 1238 78 383")
+        (Scroll "3864 4216")
+        (Zoom "800")
         (Occurrence "/"))
-      (Path "H:\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "3 - Power Supplies")))
+      (Page "4 - Output Filter & Connectors")))
   (ISPCBBASICLICENSE "false"))
